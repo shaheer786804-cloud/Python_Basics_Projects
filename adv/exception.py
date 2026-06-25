@@ -13,10 +13,12 @@ while True:
         a = int(input("Enter numinator :" ,))
         b = int(input("Enter denominator :" ,))
         c = a / b
+        print("Result =" ,c) 
 
     except Exception as e:
         print("An error occur :" , e)
-
+        print("Check your value and try again") 
     finally:
-        print("Check your value and try again")    
+        print("Choose options of starting or ending program")
+          
 
