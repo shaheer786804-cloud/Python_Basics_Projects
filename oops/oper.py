@@ -15,7 +15,7 @@ Person2 = account("Hashir" , 3000)
 combined = Person1 + Person2
 print(Person1)
 print(Person2)
-print(combined)
+print("Total balance :", combined)
 
 if Person1.balance > Person2.balance :
     print(f"{Person1.name} will pay bill")

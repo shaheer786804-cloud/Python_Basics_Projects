@@ -2,8 +2,9 @@ class Device:
 
     Brand = "Omen"
     def __init__(self , name):
-        print("Init is called" , name)
         self.name = name.upper()
+        print("Init is called" , self.name)
+        
 
     def show(self):
         print("Device : ", self.name)
